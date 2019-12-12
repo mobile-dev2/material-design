@@ -23,5 +23,13 @@ class DetailActivity : AppCompatActivity() {
                 .setView(mDialogView)
                 .setTitle("Comprar").show()
         }
+        button2.setOnClickListener {
+            //Inflate the dialog with custom view
+            val mDialogView = LayoutInflater.from(this).inflate(R.layout.dialog, null)
+            //AlertDialogBuilder
+            AlertDialog.Builder(this)
+                .setView(mDialogView)
+                .setTitle("Comprar").show()
+        }
     }
 }
