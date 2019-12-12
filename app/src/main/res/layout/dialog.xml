@@ -2,35 +2,21 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="300dp"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/lblMensajeOperacion"
-        android:layout_width="407dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@color/colorPrimary"
-        android:text="Seleccione la cantidad de acciones a"
-        android:textSize="25sp"
-        android:textColor="@color/colorfuente"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    tools:context=".FragmDial">
 
     <TextView
         android:id="@+id/lblPrecio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="Valor Total"
         android:textColor="@color/colorPrimaryDark"
 
-        android:textSize="28sp"
+        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblMensajeOperacion" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txtValor"
@@ -48,7 +34,7 @@
         android:id="@+id/btnAceptarOperacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="64dp"
+        android:layout_marginEnd="8dp"
         android:background="@color/colorPrimary"
 
         android:text="Aceptar"
@@ -60,19 +46,21 @@
         android:id="@+id/btnCancelarOperacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@color/colorPrimary"
         android:text="Cancelar"
         android:textColor="@color/colorfuente"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblCantidadDisp" />
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/lblPrecio">
 
@@ -107,6 +95,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_centerHorizontal="true"
+
             android:layout_toRightOf="@id/text_view"
             android:background="@color/transparent"
             android:text="+"
@@ -117,9 +106,11 @@
     <TextView
         android:id="@+id/lblCantidadDisp"
         android:layout_width="131dp"
-        android:layout_height="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Cantidad disponible"
-        app:layout_constraintEnd_toEndOf="@+id/relativeLayout"
+        android:textSize="18sp"
+        android:textColor="@color/colorLight"
         app:layout_constraintStart_toStartOf="@+id/relativeLayout"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
