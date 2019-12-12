@@ -22,6 +22,64 @@
                 android:textSize="20sp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true" />
+            <TextView
+                android:id="@+id/txtEmp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empresa2 "
+                android:textSize="20sp"
+                android:layout_below="@+id/txtEmp1"
+                android:layout_marginTop="50dp"
+                tools:ignore="UnknownId" />
+            <TextView
+                android:id="@+id/txtEmp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empresa2 "
+                android:textSize="20sp"
+                android:layout_below="@+id/txtEmp2"
+                android:layout_marginTop="50dp"
+                tools:ignore="UnknownId" />
+
+            <TextView
+                android:id="@+id/txtEmp4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empresa2 "
+                android:textSize="20sp"
+                android:layout_below="@+id/txtEmp3"
+                android:layout_marginTop="50dp"
+                tools:ignore="UnknownId" />
+
+            <TextView
+                android:id="@+id/txtEmp5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empresa2 "
+                android:textSize="20sp"
+                android:layout_below="@+id/txtEmp4"
+                android:layout_marginTop="50dp"
+                tools:ignore="UnknownId" />
+
+            <TextView
+                android:id="@+id/txtEmp6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empresa2 "
+                android:textSize="20sp"
+                android:layout_below="@+id/txtEmp5"
+                android:layout_marginTop="50dp"
+                tools:ignore="UnknownId" />
+
+            <TextView
+                android:id="@+id/txtEmp7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empresa2 "
+                android:textSize="20sp"
+                android:layout_below="@+id/txtEmp6"
+                android:layout_marginTop="50dp"
+                tools:ignore="UnknownId" />
 
             <TextView
                 android:id="@+id/pesitos"
@@ -43,15 +101,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_below="@+id/pesitos"/>
 
-            <TextView
-                android:id="@+id/txtEmp2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Empresa2 "
-                android:textSize="20sp"
-                android:layout_below="@+id/txtEmp1"
-                android:layout_marginTop="50dp"
-                tools:ignore="UnknownId" />
+
 
 
             <TextView
@@ -76,6 +126,162 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_below="@+id/pesitos2"/>
+
+            <TextView
+                android:id="@+id/pesitos3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 90.88"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txtValor2"
+                />
+            <TextView
+                android:id="@+id/txtValor3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:text="Valor +/-"
+                android:textSize="20sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/pesitos3"/>
+
+            <TextView
+                android:id="@+id/pesitos4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 90.88"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txtValor3"
+                />
+            <TextView
+                android:id="@+id/txtValor4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:text="Valor +/-"
+                android:textSize="20sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/pesitos4"/>
+
+
+            <TextView
+                android:id="@+id/pesitos5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 90.88"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txtValor4"
+                />
+            <TextView
+                android:id="@+id/txtValor5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:text="Valor +/-"
+                android:textSize="20sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/pesitos5"/>
+
+            <TextView
+                android:id="@+id/pesitos6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 90.88"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txtValor5"
+                />
+            <TextView
+                android:id="@+id/txtValor6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:text="Valor +/-"
+                android:textSize="20sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/pesitos6"/>
+
+
+            <TextView
+                android:id="@+id/pesitos7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 90.88"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txtValor5"
+                />
+            <TextView
+                android:id="@+id/txtValor7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:text="Valor +/-"
+                android:textSize="20sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/pesitos6"/>
+
+            <TextView
+                android:id="@+id/pesitos8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 90.88"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txtValor6"
+                />
+            <TextView
+                android:id="@+id/txtValor8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:text="Valor +/-"
+                android:textSize="20sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/pesitos8"/>
+
+            <TextView
+                android:id="@+id/pesitos9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 90.88"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txtValor7"
+                />
+            <TextView
+                android:id="@+id/txtValor9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:text="Valor +/-"
+                android:textSize="20sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/pesitos9"/>
 
         </RelativeLayout>
 
