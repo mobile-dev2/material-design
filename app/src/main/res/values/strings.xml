@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dolar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">El dolar</string>
+    <string name="nav_header_subtitle">Compra y Venta</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Mercado</string>
+    <string name="menu_gallery">Mis Acciones</string>
+    <string name="menu_slideshow">Historial</string>
+    <string name="menu_tools">Perfil</string>
+    <string name="menu_share">Noticias</string>
+    <string name="menu_send">Cerrar Sesion</string>
+</resources>
